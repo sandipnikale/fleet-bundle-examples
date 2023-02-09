@@ -3,11 +3,8 @@ helm:
 
 valuesFrom:
   - configMapKeyRef:
-      name: configmap-values
+      name: nginx-configmap
       # default to namespace of bundle
       namespace: default 
-      key: ./values.yaml
-    secretKeyRef:
-      name: secret-values
-      namespace: default
-      key: ./values.yaml
+      key: values.yaml
+   
