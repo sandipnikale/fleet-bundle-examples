@@ -1,2 +1,2 @@
 helm:
-  chart: ./chart
+  chart: ./what-the-helm
