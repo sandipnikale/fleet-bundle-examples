@@ -6,5 +6,5 @@ valuesFrom:
       name: nginx-configmap
       # default to namespace of bundle
       namespace: default 
-      key: values.yaml
+      key: ./values.yaml
    
